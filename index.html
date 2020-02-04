@@ -8,10 +8,264 @@
     <!-- Bootstrap CSS -->
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">
-    <link href="styleCSS.css" rel="stylesheet" type="text/css" /> <!-- MY CSS -->
-    <link href="fontawesome/css/all.css" rel="stylesheet">
-
-    <title>Moda Research</title>
-
+    <link href="style.css" rel="stylesheet" type="text/css" /> <!-- MY CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> <!--link fontaweson-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet"><!--font-->
+    <title>Jane BlogLife</title>
 
 </head>
+<body>
+    <div class="container-fluid">
+        <!--popup sub-->
+        <div id="hide" class="nascondi">
+            <div class="formtop"> 
+                <form>
+                    <div>
+                        <button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <p> SUBESCRIBE</p>
+                        <p>Join my mailing list to recive updetes on the lastest blog post and other things.</p>
+                        <input type="email" class="form-control email" id="exampleInputEmail1" placeholder="Enter e-mail" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn bottone">Subscribe</button>
+              </form>
+            </div>
+        </div>
+
+        <div id="blacknav" class="row">
+            <div class="col-12">
+                 <!-- menu -->
+                <nav class="navbar navbar-expand">
+                  
+                    <div class="navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><i class="fab fa-snapchat-square"></i></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><i class="fab fa-flickr"></i></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                        <i class="fas fa-search"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!--titolo-->
+        <div class="row" id="altezza">
+            <div class="col-12 d-flex align-items-center ">
+                <div class="testo">
+                    <h1>JANE BLOGLIFE</h1> <!--titolo sovrapposto all'immagine-->
+                    <p>Welcome to the blog of <span class="evidenzia">Jane's world</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!--copertina-->
+        <div class="row" id="copertina">
+            <div class="col-12 d-flex align-items-center ">
+                <div class="jane">
+                    <p>Jane's </p> <!--titolo sovrapposto all'immagine-->
+                    <h2>FASHION BLOG</h2>
+                    <button type="button" class=" subscribe btn btn-light">SUBESCRIBE</button>
+                </div>
+            </div>
+        </div>
+
+        <!--articoli-->
+        <div class="row colore">
+            <div class="col-lg-8 col-md-12 back">
+                <div class="card">
+                    <div class="text-center">
+                        <h4>TITLE HEADING</h4>
+                        <p class="description">Title Description, <span class="gray">May 2, 2016</span></p>
+                    </div>
+                    <img src="img/girl_hat.jpg" class="card-img" alt="girl">
+                    <div class="card-body">
+                      <p class="card-text articolo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis massa sit amet dignissim dapibus. Cras hendrerit blandit ante, tristique aliquam odio pharetra vel. Aenean tincidunt lobortis nisi. Etiam maximus ante eget quam vestibulum semper. Morbi et commodo erat. Aliquam sagittis, orci laoreet euismod tincidunt, tellus justo fringilla felis, ut convallis sapien justo euismod arcu. Vestibulum non mi tellus. Integer tempus tincidunt ex eu aliquam. Sed at rhoncus felis. Cras justo diam, elementum et dui mollis, volutpat placerat risus.</p>
+                        <p class="articolo">Quisque faucibus, nisi id rutrum dignissim, nisl mauris cursus ipsum, ac blandit ante ligula ac dolor. Praesent quis ultrices dui, sed auctor mi. Ut ultrices quam ac ex vestibulum fermentum. Morbi tristique sem sed metus tempus, vitae scelerisque dolor porttitor. Vivamus eleifend metus diam, et ultrices mauris placerat non. </p>
+                      <a href="#" class="btn btn-primary like"><i class="fas fa-thumbs-up"></i>Like</a>
+                      <a href="#" class="btn btn-primary replies">Replies <span class="one">1</span></a>
+                      <div class="footer-card mt-5 d-flex">
+                        <div class="container-img mt-4 mr-5">
+                          <img src="img/avatar_smoke.jpg">
+                        </div>
+                        <div class="testo-footer-card mt-5">
+                          <p class="name">George <span>May 3, 2016, 6:32 PM</span></p>
+                          <p>Great blog post! Following</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text-center">
+                        <h4>TITLE HEADING</h4>
+                        <p class="description">Title Description, <span class="gray">April 23, 2016</span></p>
+                    </div>
+                    <img src="img/man_hat.jpg" class="card-img" alt="man">
+                    <div class="card-body">
+                      <p class="card-text articolo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis massa sit amet dignissim dapibus. Cras hendrerit blandit ante, tristique aliquam odio pharetra vel. Aenean tincidunt lobortis nisi. Etiam maximus ante eget quam vestibulum semper. Morbi et commodo erat. Aliquam sagittis, orci laoreet euismod tincidunt, tellus justo fringilla felis, ut convallis sapien justo euismod arcu. Vestibulum non mi tellus. Integer tempus tincidunt ex eu aliquam. Sed at rhoncus felis. Cras justo diam, elementum et dui mollis, volutpat placerat risus.</p>
+                      <a href="#" class="btn btn-primary like"><i class="fas fa-thumbs-up"></i>Like</a>
+                      <a href="#" class="btn btn-primary replies">Replies <span class="number">2</span></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text-center">
+                        <h4>TITLE HEADING</h4>
+                        <p class="description">Title Description, <span class="gray">April 7, 2016</span></p>
+                    </div>
+                    <img src="img/runway.jpg" class="card-img" alt="fashion">
+                    <div class="card-body">
+                      <p class="card-text articolo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis massa sit amet dignissim dapibus. Cras hendrerit blandit ante, tristique aliquam odio pharetra vel. Aenean tincidunt lobortis nisi. Etiam maximus ante eget quam vestibulum semper. Morbi et commodo erat. Aliquam sagittis, orci laoreet euismod tincidunt, tellus justo fringilla felis, ut convallis sapien justo euismod arcu. Vestibulum non mi tellus. Integer tempus tincidunt ex eu aliquam. Sed at rhoncus felis. Cras justo diam, elementum et dui mollis, volutpat placerat risus.</p>
+                      <a href="#" class="btn btn-primary like"><i class="fas fa-thumbs-up"></i>Like</a>
+                      <a href="#" class="btn btn-primary replies">Replies <span class="number">3</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--card laterali-->
+            <div class="col-lg-4 col-md-12 back">
+                <!--My name-->
+                <div class="card black" >
+                    <img src="img/avatar_girl2.jpg" class="card-img-top girl" alt="my name">
+                    <div class="card-body">
+                      <p class="card-text nome"> My Name </p>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <!--Popular Post-->
+                <ul class="list-group popular">
+                    <li class="list-group-item">Popular Post</li>
+                    <li class="list-group-item d-flex">
+                        <img class="profilo" src="img/avatar_smoke.jpg" alt="danim">
+                        <div class="danim">
+                            <p>Denim</p>
+                            <p>Sed mattis nunc</p>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <img class="profilo" src="img/bandmember.jpg" alt="danim">
+                        <div class="sweaters">
+                            <p>Sweaters</p>
+                            <p>Praes tinci sed</p>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <img class="profilo" src="img/workshop.jpg" alt="danim">
+                        <div class="workshop">
+                            <p>Workshop</p>
+                            <p>Ultricies congue</p>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <img class="profilo seppia" src="img/avatar_smoke.jpg" alt="danim">
+                        <div class="trends">
+                            <p>Trends</p>
+                            <p> Lorem ipsum dipsum</p>
+                        </div>
+                       
+                    </li>
+                </ul>
+                <!--Advertise-->
+                <ul class="list-group popular">
+                    <li class="list-group-item">Advertise</li>
+                    <li class="list-group-item">
+                        <div class="pubblicita">
+                            <p>Your AD Here</p>
+                        </div>
+                    </li>
+                </ul>
+                <!--Tag-->
+                <ul class="list-group popular">
+                    <li class="list-group-item">Tags</li>
+                    <li class="list-group-item">
+                        <div class="tag">
+                            <a href="#">Fashion</a>
+                            <a href="#">New York</a>
+                            <a href="#">London</a>
+                            <a href="#">Hats</a>
+                            <a href="#">Norway</a>
+                            <a href="#">Sweatwers</a>
+                            <a href="#">Ideas</a>
+                            <a href="#">Deals</a>
+                            <a href="#">Accessories</a>
+                            <a href="#">News</a>
+                            <a href="#">Clothing</a>
+                            <a href="#">Shopping</a>
+                            <a href="#">Jeans</a>
+                            <a href="#">Trends</a>
+                        </div>
+                    </li>
+                </ul>
+                <!--Inspiration-->
+                <ul class="list-group popular">
+                    <li class="list-group-item">Inspiration</li>
+                    <li class="list-group-item">
+                        <img class="img" src="img/jeans.jpg">
+                        <img class="img" src="img/avatar_hat.jpg" >
+                        <img class="img" src="img/team1.jpg" >
+                        <img class="img" src="img/team4.jpg">
+                    </li>
+                </ul>
+                <!--social-->
+                <ul class="list-group popular">
+                    <li class="list-group-item">Follow Me</li>
+                    <li class="list-group-item social">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-snapchat-square"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-flickr"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                    </li>
+                </ul>
+                <!--Subscribe-->
+                <ul class="list-group popular">
+                    <li class="list-group-item">Subscribe</li>
+                    <li class="list-group-item subscribeb">
+                        <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                        <form>
+                            <div>
+                             <input type="email" class="form-control email" id="exampleInputEmail1" placeholder="Enter e-mail" aria-describedby="emailHelp">
+                            </div>
+                            <button type="submit" class="btn bottone">Subscribe</button>
+                        </form>
+
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <footer class="row">
+            <div class="col-lg-3 col-md-12">
+            <a href="javascript:window.scrollTo(0,0)"><button class="btn top"><i class="fas fa-arrow-up"></i> To the top </button></a>
+            </div>
+        </footer>
+    </div>
+   
+
+       
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+    <script src="Jscrip.js"></script>
+</body>
+</html>
